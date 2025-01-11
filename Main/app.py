@@ -40,7 +40,7 @@ def transform_text(text):
 tk = pickle.load(open("vectorizer.pkl", 'rb'))
 model = pickle.load(open("model.pkl", 'rb'))
 
-st.title("SMS Alert Filter")
+st.title("SMS Spam Detection System Using NLP")
 
 
 
@@ -48,7 +48,7 @@ st.title("SMS Alert Filter")
 
 
 content = """
-**Welcome to the SMS Alert Filter**!
+**Welcome to the SMS Spam Detection System Using NLP**!
 
 This tool helps you identify and filter out spam messages from your inbox. Simply enter any SMS text, and our model will classify it as either Spam or Not Spam. It uses advanced machine learning techniques to accurately analyze and detect unwanted messages, helping you maintain a cleaner and safer messaging experience.
 
